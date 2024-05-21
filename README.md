@@ -1,5 +1,7 @@
 # MarioFight
 <br/>
+Mettre tout les image dans le même repertoire que mario.pde avant de faire un test!<br/>
+<br/>
 Instructions de Contrôle<br/>
 Déplacement de Mario<br/>
 A : Aller à gauche<br/>
