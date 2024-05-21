@@ -66,7 +66,7 @@ void setup() {
   textSize(32);
 
   // Chargez les images
-  landscape = loadImage("landscape.jpg"); // Assurez-vous que l'image est dans le dossier "data"
+  landscape = loadImage("landscape.jpg"); // 
   landscapeX = 0;
   
   shell0 = loadImage("shell0.png");
@@ -430,7 +430,7 @@ void moveMario(Adversaire adversaire) {
     if (millis() - lastFrameChangeTime > 70) {
           // Décrément cyclique de marioFrame (-1,-2,-3,-1,-2,-3,...)
           marioFrame = (marioFrame % modulo) + 1;
-          lastFrameChangeTime = millis(); // Mettez à jour le temps de la dernière modification de cadre
+          lastFrameChangeTime = millis(); 
         }
   }
   
@@ -444,7 +444,7 @@ void moveMario(Adversaire adversaire) {
     }
   }
   
-  // Assurez-vous de mettre à jour la position du paysage
+
   updateLandscape();
 }
 
@@ -465,7 +465,7 @@ void updateMarioFrameRight() {
     if (millis() - lastFrameChangeTime > 140) {
         // Décrément cyclique de marioFrame (-1,-2,-3,-1,-2,-3,...)
         marioFrame = (marioFrame % modulo) + 1;
-        lastFrameChangeTime = millis(); // Mettez à jour le temps de la dernière modification de cadre
+        lastFrameChangeTime = millis(); //
       }
   }
   
@@ -502,7 +502,7 @@ void keyPressed() {
     marioFrame = -7;
     marioX -= 75;
     
-    // Mettez à jour les variables de suivi du temps et de l'état de la touche 'j' ou 'J'
+    
     jkKeyPressed = true;
     lastJKeyPressTime = millis();
   }
@@ -512,7 +512,7 @@ void keyPressed() {
     marioFrame = 7;
     marioX += 75;
     
-    // Mettez à jour les variables de suivi du temps et de l'état de la touche 'k' ou 'K'
+  
     jkKeyPressed = true;
     lastJKeyPressTime = millis();
   }
