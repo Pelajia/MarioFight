@@ -1,6 +1,6 @@
 # MarioFight
 <br/>
-Mettre tout les image dans le même repertoire que mario.pde avant de faire un test!<br/>
+Mettre tout les images dans le même repertoire que mario.pde avant de faire un test!<br/>
 <br/>
 Instructions de Contrôle<br/>
 Déplacement de Mario<br/>
