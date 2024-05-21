@@ -1,15 +1,15 @@
 # MarioFight
-
-Instructions de Contrôle
-Déplacement de Mario
-A : Aller à gauche
-D : Aller à droite
-E : Sauter
-Attaques de Mario
-X : Style
-P : Punch
-O : Punch
-J : Kick
-K : Kick
-T : Coup fatal
+<br/>
+Instructions de Contrôle<br/>
+Déplacement de Mario<br/>
+A : Aller à gauche<br/>
+D : Aller à droite<br/>
+E : Sauter<br/>
+Attaques de Mario<br/>
+X : Style<br/>
+P : Punch<br/>
+O : Punch<br/>
+J : Kick<br/>
+K : Kick<br/>
+T : Coup fatal<br/>
 Y : Coup fatal
